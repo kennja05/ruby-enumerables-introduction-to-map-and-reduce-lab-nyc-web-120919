@@ -33,6 +33,7 @@ def reduce_to_any_true(source_array)
     return true
   else 
     return false
+  end
   
   #while counter < source_array.size do
     #if source_array[counter] = true 
