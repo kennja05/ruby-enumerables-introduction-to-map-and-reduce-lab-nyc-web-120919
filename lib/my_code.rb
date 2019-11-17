@@ -29,13 +29,18 @@ end
 def reduce_to_any_true(source_array)
   counter = 0
   my_var = false 
-  while counter < source_array.size do
-    if source_array[counter] = true 
-      my_var = true
-      counter += 1 
-    end 
-  my_var  
- end 
- my_var
+  if source_array.include?("true")
+    return true
+  else 
+    return false
+  
+  #while counter < source_array.size do
+    #if source_array[counter] = true 
+      #my_var = true
+      #counter += 1 
+    #end 
+  #my_var  
+ #end 
+ #my_var
 end  
   
