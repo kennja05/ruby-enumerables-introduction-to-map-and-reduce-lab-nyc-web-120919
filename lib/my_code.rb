@@ -29,7 +29,7 @@ end
 def reduce_to_any_true(source_array)
   counter = 0
   my_var = false 
-  if source_array.include?("true")
+  if source_array.include?(true)
     return true
   else 
     return false
